@@ -1,6 +1,6 @@
 # Pac-Man Game - Advanced Programming Project
 
-**Student:** Etienne  
+**Student:** Etienne El Hachem
 **Student Number:** 20241443  
 **Academic Year:** 2025-2026  
 **Course:** Advanced Programming  
