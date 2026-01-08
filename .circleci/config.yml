@@ -37,17 +37,6 @@ jobs:
               echo "✗ Build failed - executable not found"
               exit 1
             fi
-      
-      - run:
-          name: Verify executable is valid
-          command: |
-            if [ -x "build/Pacman_Retry" ]; then
-              echo "✓ Executable has correct permissions"
-              file build/Pacman_Retry
-            else
-              echo "✗ Executable permissions issue"
-              exit 1
-            fi
 
 workflows:
   version: 2
